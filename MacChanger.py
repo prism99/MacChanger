@@ -1,5 +1,5 @@
-#!/usr/bin/python
-# Usage: python MacChanger.py
+#!/usr/bin/env python
+
 import subprocess
 interface = raw_input("What interface are you using? ") # pick interface found in ifconfig
 new_mac = raw_input("New MAC address, ie '00:11:22:33:44:55' ") # pick desired new mac address to change to
